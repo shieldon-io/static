@@ -1,0 +1,105 @@
+/* > 1200px */
+@include media-breakpoint-up(xl) {
+
+}
+
+/* < 1200px */
+@include media-breakpoint-down(lg) {
+
+}
+
+/* > 992px */
+@include media-breakpoint-up(lg) {
+
+}
+
+/* 992px - 1199.98px */
+@include media-breakpoint-between(lg, lg) {
+
+}
+
+/* < 992px */
+@include media-breakpoint-down(md) {
+    
+}
+
+/* 768px - 991.98px */
+@include media-breakpoint-between(md, md) {
+
+}
+
+/* < 768px */
+@include media-breakpoint-down(sm) {
+    .so-sidebar-menu { 
+        min-height: 100px;
+    }
+
+
+    table,
+    tr {
+        display: block;
+    }
+
+    td {
+        &.r1,
+        &.r2 {
+            display: block;
+            width: 100% !important;
+        }
+    }
+
+    .so-tab label {
+        font-size: 13px !important;
+    }
+
+    .nav-item {
+        min-height: 32px;
+        line-height: 32px;
+    }
+
+    .navbar-collapse {
+        background-color: #389a77;
+        font-size: 15px;
+
+        li, a.nav-link {
+            color: #fff !important;
+        }
+
+        .nav-item {
+            border-bottom: 1px #366353 solid;
+            margin: 0;
+            padding: 8px 15px;
+        }
+
+        strong {
+            color: #c4fff4;
+        }
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: #333;
+        background-color: #666;
+        border: 1px #666 solid;
+        margin-right: 10px;
+    }
+}
+
+/* 576px - 767.98px */
+@include media-breakpoint-between(sm, sm) {
+
+}
+
+/* < 576px */
+@include media-breakpoint-down(mx) {
+
+}
+
+/* 360px - 575.98px */
+@include media-breakpoint-between(mx, mx) {
+
+}
+
+/* < 360px */
+@include media-breakpoint-down(xs) {
+
+}
