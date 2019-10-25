@@ -35,18 +35,22 @@
     }
 
 
-    table,
-    tr {
+    table.setting-table {
         display: block;
-    }
-
-    td {
-        &.r1,
-        &.r2 {
+        
+        tr {
             display: block;
-            width: 100% !important;
+        }
+    
+        td {
+            &.r1,
+            &.r2 {
+                display: block;
+                width: 100% !important;
+            }
         }
     }
+
 
     .so-tab label {
         font-size: 13px !important;
@@ -81,6 +85,14 @@
         background-color: #666;
         border: 1px #666 solid;
         margin-right: 10px;
+    }
+
+    .so-flex  {
+        display: block;
+    }
+    .so-board {
+        width: 100% !important;
+        margin-bottom: 10px !important;
     }
 }
 
