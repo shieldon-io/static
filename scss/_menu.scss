@@ -49,17 +49,22 @@
 	&.child-menu {
 
 		display: none;
+
 		li {
 
 			position: relative;
 
 			i {
 				background-color: transparent;
-				color: #555555;
+				color: #666;
 			}
 
 			&:hover {
 				background-color: rgba(255, 255, 255, 0.06);
+			}
+
+			span {
+				padding-bottom: 7px;
 			}
 
 			&.active {
@@ -73,7 +78,7 @@
 						display: block;
 						position: absolute;
 						right: 10px;
-						top: 17px;
+						top: 21px;
 						width: 0; 
 						height: 0; 
 						border-top: 7px solid transparent;
@@ -82,8 +87,6 @@
 					}
 				}
 			}
-
-			padding-left: 36px;
 		}
 
 		> li > a {
