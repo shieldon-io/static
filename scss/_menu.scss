@@ -53,6 +53,11 @@
 
 			position: relative;
 
+			i {
+				background-color: transparent;
+				color: #555555;
+			}
+
 			&:hover {
 				background-color: rgba(255, 255, 255, 0.06);
 			}
