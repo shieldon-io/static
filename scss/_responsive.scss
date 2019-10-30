@@ -91,6 +91,35 @@
     body {
         background-color: #333333 !important;
     }
+
+    .so-datatable-heading {
+        overflow: hidden;
+    }
+
+    .heading-right {
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+
+        ul {
+            display: block;
+            margin-bottom: 15px;
+            padding: 0;
+            
+            li {
+                overflow: hidden;
+                padding: 3px !important;
+                margin: 0 !important;
+                width: 100%;
+                
+
+                span {
+                    width: 150px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
 }
 
 /* 768px - 991.98px */

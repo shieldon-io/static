@@ -66,6 +66,16 @@ body::-webkit-scrollbar-thumb
 	height: 60px;
 }
 
+.status-field {
+	background-color: rgba(0, 0, 0, 0.05);
+	padding: 3px 5px;
+	font-weight: normal;
+	border-top: 1px #ddd solid;
+	border-left: 1px #ddd solid;
+	border-right: 1px #eee solid;
+	border-bottom: 1px #eee solid;
+}
+
 code.tips {
 	border-left: 5px #dddddd solid;
 	border-radius: 3px;
@@ -315,6 +325,12 @@ code.tips {
 }
 .navbar {
 	padding: 0;
+
+	.dropdown-menu {
+		top: 37px;
+		border-radius: 0;
+		font-size: 13px;
+	}
 }
 
 .nav-item {
@@ -332,7 +348,5 @@ code.tips {
 	color: #333 !important;
 }
 
-.dropdown-menu {
-	border-radius: 0;
-	font-size: 13px;
-}
+
+
