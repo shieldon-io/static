@@ -270,13 +270,47 @@
 	}
 }
 
+.btn-shieldon {
+	background-color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #eee));
+	background: -webkit-linear-gradient(top, #fff 0%, #eee 100%);
+	background: -moz-linear-gradient(top, #fff 0%, #eee 100%);
+	background: -ms-linear-gradient(top, #fff 0%, #eee 100%);
+	background: -o-linear-gradient(top, #fff 0%, #eee 100%);
+	background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+	vertical-align: middle;
+	font-size: 14px;
+	height: 40px;
+	border: 1px #dddddd solid;
+	padding: 0.25rem 0.5rem;
+	margin: 0 2px;
+}
+
 .so-rule-form {
 	input, select {
 		vertical-align: middle;
-		font-size: 13px;
-		height: 32px;
+		font-size: 14px;
+		height: 40px;
 		border: 1px #dddddd solid;
 		padding: 0.25rem 0.5rem;
+		margin: 0 2px;
+	}
+
+	
+
+	input[type=submit], button  {
+		background-color: #fff;
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #eee));
+		background: -webkit-linear-gradient(top, #fff 0%, #eee 100%);
+		background: -moz-linear-gradient(top, #fff 0%, #eee 100%);
+		background: -ms-linear-gradient(top, #fff 0%, #eee 100%);
+		background: -o-linear-gradient(top, #fff 0%, #eee 100%);
+		background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+		font-weight: 600;
+	}
+
+	option {
+		font-size: 15px;
 	}
 
 	.regular-text {

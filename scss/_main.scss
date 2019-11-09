@@ -349,4 +349,18 @@ code.tips {
 }
 
 
+.iptables-form {
+	span.seperate {
+		font-weight: bold; 
+		font-size: 18px
+	}
 
+    border-top: 2px #dddddd solid;
+    border-left: 1px #dddddd solid;
+    border-right: 1px #eeeeee solid;
+    border-bottom: 1px #eeeeee solid;
+    background: #fff;
+    background-image: radial-gradient(#dddddd 1%,rgba(0,0,0,0) 15%);
+    background-size: 8px 8px;
+    padding: 20px;
+}
