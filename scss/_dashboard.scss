@@ -284,6 +284,34 @@
 	border: 1px #dddddd solid;
 	padding: 0.25rem 0.5rem;
 	margin: 0 2px;
+	border-radius: 3px;
+
+	&.btn-sm {
+		height: 30px;
+	}
+
+	&.btn-only-icon {
+		height: 30px;
+		width: 30px;
+		padding: 0;
+		text-align: center;
+		line-height: 30px;
+		vertical-align: middle;
+		font-size: 13px;
+	}
+
+	&.circle {
+		border-radius: 50%;
+	}
+
+	&:hover {
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #fff));
+		background: -webkit-linear-gradient(top, #eee 0%, #fff 100%);
+		background: -moz-linear-gradient(top, #eee 0%, #fff 100%);
+		background: -ms-linear-gradient(top, eee 0%, #fff 100%);
+		background: -o-linear-gradient(top, #eee 0%, #fff 100%);
+		background: linear-gradient(to bottom, #eee 0%, #fff 100%);
+	}
 }
 
 .so-rule-form {
