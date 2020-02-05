@@ -44,6 +44,10 @@
         top: -2px;
         right: 10px;
         display: inline-block;
+
+        &.toggle-sm {
+            top: 5px;
+        }
     }
 
     .section-body {
