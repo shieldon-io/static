@@ -364,3 +364,43 @@ code.tips {
     background-size: 8px 8px;
     padding: 20px;
 }
+
+#import-export {
+	padding: 10px;
+	margin: 40px;
+	border-top: 1px #dddddd solid;
+
+	ul, li {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+
+	li {
+		float: left;
+	}
+
+	a {
+		display: inline-block;
+		overflow: hidden;
+		color: #333;
+		border: 1px #dddddd solid;
+		margin: 5px;
+		background-color: #ffffff;
+		text-decoration: none;
+
+		&:hover {
+			background-color: #00b38a;
+			color: #fff;
+
+			i {
+				color: #fff;
+			}
+		}
+
+		i {
+			margin-right: 5px;
+			color: #00b38a;
+		}
+	}
+}
